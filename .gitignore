@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.dist/
+build/
+.venv/
+venv/
+
+# Ruff / Pytest
+.pytest_cache/
+.ruff_cache/
+
+# Data
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/*.sqlite
+data/*.sqlite-wal
+data/*.sqlite-shm
+
+vn_news_mcp.egg-info
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# Local overrides
+CLAUDE.local.md
+CLAUDE.md
+.claude
+.env
+.env.*
+uv.lock
